@@ -54,4 +54,4 @@ RUN Rscript -e 'install.packages("BiocManager", repos = "https://cloud.r-project
 
 
 # copy data
-COPY docker/OTU_table.biom /var/lib/RNA_seq/
+COPY docker/OTU_table.biom /var/lib/
