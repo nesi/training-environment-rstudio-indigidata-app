@@ -43,6 +43,7 @@ echo "Starting up rserver..."
 
 # copy data
 rsync --ignore-existing -avz /var/lib/OTU_table.biom ~/OTU_table.biom
+rsync --ignore-existing -avz /var/lib/spiders_df.csv ~/spiders_df.csv
 
 # launch rserver
 rserver \
